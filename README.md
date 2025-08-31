@@ -24,3 +24,7 @@ Backend: API Routes (Serverless Functions on Vercel)
 AI Models: OpenAI / Gemini API (or any model you integrate)
 
 Deployment: Vercel
+
+🌍 Live Demo
+
+🔗 ai-tool-beta.vercel.app
