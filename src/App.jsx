@@ -43,7 +43,7 @@ function App() {
       {
         "parts": [
           {
-            "text": "Explain how AI works in a few words"
+            "text": "question"
           }
         ]
       }
