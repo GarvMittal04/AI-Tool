@@ -39,10 +39,16 @@ function App() {
 
     const payloadData = question ? question : selectedHistory
     const payload = {
-      "contents": [{
-        "parts": [{ "text": payloadData }]
-      }]
-    }
+      "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }
 
     setLoader(true);
     let response = await fetch(URL, {
