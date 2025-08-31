@@ -41,17 +41,12 @@ function App() {
     const payload = {
       "contents": [
       {
-        "parts": [
-          {
-            "text": "question"
-          }
-        ]
-      }
-    ]
+        "parts": [{"text": payloadData}]
+      }]
   }
 
     setLoader(true);
-    let response = await fetch(URL, {
+    let response = await fetch(URL,{
       method: "POST",
       body: JSON.stringify(payload)
     })
