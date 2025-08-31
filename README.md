@@ -27,4 +27,4 @@ Deployment: Vercel
 
 🌍 Live Demo
 
-🔗 ai-tool-beta.vercel.app
+🔗 https://ai-tool-beta.vercel.app/
