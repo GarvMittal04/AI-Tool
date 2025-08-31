@@ -1,1 +1,1 @@
-export const URL="https://googleapis.github.io/python-genai/"
+export const URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
