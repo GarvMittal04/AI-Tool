@@ -10,7 +10,7 @@ function App() {
   const [result, setResult] = useState([]);
   const [recentHistory, setRecentHistory] = useState(JSON.parse(localStorage.getItem('history')));
   const [selectedHistory, setSelectedHistory] = useState('')
-  const scrollToAns = useRef();
+  const scrollToAns = useRef(); 
   const [loader, setLoader] = useState(false);
 
 
