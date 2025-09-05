@@ -5,7 +5,7 @@ import { URL } from './constants';
 import RecentSearch from './components/RecentSearch';
 import QuestionAnswer from './components/QuestionAnswer';
 
-function App() { 
+function App() {  
   const [question, setQuestion] = useState('');
   const [result, setResult] = useState([]);
   const [recentHistory, setRecentHistory] = useState(JSON.parse(localStorage.getItem('history')));
