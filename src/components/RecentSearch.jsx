@@ -8,7 +8,7 @@ function RecentSearch({recentHistory, setRecentHistory,setSelectedHistory}) {
     const clearSelectedHistory=(selectedItem)=>{
         let history = JSON.parse(localStorage.getItem('history'));
         console.log(history);
-       history= history.filter((item)=>{ 
+       history= history.filter((item)=>{  
            if(item!=selectedItem){
             return item
            }
