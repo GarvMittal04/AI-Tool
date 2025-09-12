@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { checkHeading, replaceHeadingStarts } from "../helper";
 import SyntaxHighlighter from "react-syntax-highlighter/dist/cjs/light";
-import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism'; 
 
 import ReactMarkdown from 'react-markdown'
 
