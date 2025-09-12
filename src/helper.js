@@ -5,3 +5,4 @@ export function checkHeading(str){
 export function replaceHeadingStarts(str){
     return str.replace(/^(\*)(\*)|(\*)$/g,'')
 } 
+ 
