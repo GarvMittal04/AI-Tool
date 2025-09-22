@@ -7,7 +7,7 @@ import QuestionAnswer from './components/QuestionAnswer';
 function App() {  
   const [question, setQuestion] = useState('');
   const [result, setResult] = useState([]);
-  const [recentHistory, setRecentHistory] = useState(JSON.parse(localStorage.getItem('history')));  
+  const [recentHistory, setRecentHistory] = useState(JSON.parse(localStorage.getItem('history')));   
   const [selectedHistory, setSelectedHistory] = useState('')
   const scrollToAns = useRef(); 
   const [loader, setLoader] = useState(false);
